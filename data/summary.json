@@ -8,100 +8,100 @@
     "run_id": "top500k-20260614",
     "mode": "polite",
     "total": 500000,
-    "alive": 427034,
-    "redirect": 1499,
-    "blocked": 42937,
-    "dead": 28530,
-    "dead_pct": 5.7,
-    "blocked_pct": 8.6,
-    "parked": 1361,
+    "alive": 429196,
+    "redirect": 1356,
+    "blocked": 42011,
+    "dead": 27437,
+    "dead_pct": 5.5,
+    "blocked_pct": 8.4,
+    "parked": 1379,
     "parked_pct": 0.3,
     "outcomes": [
       {
         "value": "alive",
-        "count": 427034
+        "count": 429196
       },
       {
         "value": "blocked",
-        "count": 42937
+        "count": 42011
       },
       {
         "value": "dead",
-        "count": 28530
+        "count": 27437
       },
       {
         "value": "redirect",
-        "count": 1499
+        "count": 1356
       }
     ],
     "reasons": [
       {
         "value": "ok",
-        "count": 403366
-      },
-      {
-        "value": "dns_failed",
-        "count": 23912
+        "count": 405416
       },
       {
         "value": "forbidden",
-        "count": 22625
+        "count": 22688
+      },
+      {
+        "value": "dns_failed",
+        "count": 20836
       },
       {
         "value": "not_found",
-        "count": 17574
-      },
-      {
-        "value": "tls_error",
-        "count": 8079
+        "count": 17711
       },
       {
         "value": "timeout",
-        "count": 7519
+        "count": 8451
+      },
+      {
+        "value": "tls_error",
+        "count": 8299
       },
       {
         "value": "rate_limited",
-        "count": 5895
+        "count": 5637
       },
       {
         "value": "server_error",
-        "count": 4384
+        "count": 4362
       },
       {
         "value": "connection_error",
-        "count": 1738
+        "count": 1801
       },
       {
         "value": "client_error",
-        "count": 1710
-      },
-      {
-        "value": "redirect",
-        "count": 885
+        "count": 1707
       },
       {
         "value": "connection_refused",
-        "count": 745
+        "count": 763
+      },
+      {
+        "value": "redirect",
+        "count": 759
       },
       {
         "value": "too_many_redirects",
-        "count": 614
+        "count": 597
       },
       {
         "value": "auth_required",
-        "count": 432
+        "count": 434
       },
       {
         "value": "connection_reset",
-        "count": 257
+        "count": 269
       },
       {
         "value": "anti_bot",
-        "count": 143
+        "count": 145
       },
       {
         "value": "unknown_status",
-        "count": 96
+        "count": 99
       },
       {
         "value": "unavailable_legal",
@@ -314,208 +314,208 @@
       {
         "tld": "com",
         "total": 197383,
-        "dead": 10622,
-        "dead_pct": 5.4
+        "dead": 10232,
+        "dead_pct": 5.2
       },
       {
         "tld": "org",
         "total": 53436,
-        "dead": 2826,
-        "dead_pct": 5.3
+        "dead": 2688,
+        "dead_pct": 5
       },
       {
         "tld": "io",
         "total": 35206,
-        "dead": 989,
-        "dead_pct": 2.8
+        "dead": 958,
+        "dead_pct": 2.7
       },
       {
         "tld": "net",
         "total": 18549,
-        "dead": 1317,
-        "dead_pct": 7.1
+        "dead": 1268,
+        "dead_pct": 6.8
       },
       {
         "tld": "de",
         "total": 11986,
-        "dead": 428,
-        "dead_pct": 3.6
+        "dead": 390,
+        "dead_pct": 3.3
       },
       {
         "tld": "app",
         "total": 10261,
-        "dead": 264,
-        "dead_pct": 2.6
+        "dead": 256,
+        "dead_pct": 2.5
       },
       {
         "tld": "edu",
         "total": 9899,
-        "dead": 966,
-        "dead_pct": 9.8
+        "dead": 913,
+        "dead_pct": 9.2
       },
       {
         "tld": "uk",
         "total": 9038,
-        "dead": 502,
-        "dead_pct": 5.6
+        "dead": 486,
+        "dead_pct": 5.4
       },
       {
         "tld": "dev",
         "total": 7896,
-        "dead": 473,
-        "dead_pct": 6
+        "dead": 462,
+        "dead_pct": 5.9
       },
       {
         "tld": "jp",
         "total": 6792,
-        "dead": 311,
-        "dead_pct": 4.6
+        "dead": 307,
+        "dead_pct": 4.5
       },
       {
         "tld": "br",
         "total": 5731,
-        "dead": 356,
-        "dead_pct": 6.2
+        "dead": 342,
+        "dead_pct": 6
       },
       {
         "tld": "fr",
         "total": 5691,
-        "dead": 358,
-        "dead_pct": 6.3
+        "dead": 340,
+        "dead_pct": 6
       },
       {
         "tld": "me",
         "total": 4767,
-        "dead": 406,
-        "dead_pct": 8.5
+        "dead": 393,
+        "dead_pct": 8.2
       },
       {
         "tld": "it",
         "total": 4642,
-        "dead": 223,
-        "dead_pct": 4.8
+        "dead": 215,
+        "dead_pct": 4.6
       },
       {
         "tld": "ru",
         "total": 4609,
-        "dead": 391,
-        "dead_pct": 8.5
+        "dead": 367,
+        "dead_pct": 8
       },
       {
         "tld": "in",
         "total": 4515,
-        "dead": 451,
-        "dead_pct": 10
+        "dead": 449,
+        "dead_pct": 9.9
       },
       {
         "tld": "gov",
         "total": 4277,
-        "dead": 501,
+        "dead": 502,
         "dead_pct": 11.7
       },
       {
         "tld": "ca",
         "total": 4100,
-        "dead": 227,
-        "dead_pct": 5.5
+        "dead": 219,
+        "dead_pct": 5.3
       },
       {
         "tld": "co",
         "total": 3772,
-        "dead": 249,
-        "dead_pct": 6.6
+        "dead": 235,
+        "dead_pct": 6.2
       },
       {
         "tld": "nl",
         "total": 3642,
-        "dead": 162,
-        "dead_pct": 4.4
+        "dead": 149,
+        "dead_pct": 4.1
       },
       {
         "tld": "au",
         "total": 3534,
-        "dead": 216,
-        "dead_pct": 6.1
+        "dead": 206,
+        "dead_pct": 5.8
       },
       {
         "tld": "eu",
         "total": 3411,
-        "dead": 181,
-        "dead_pct": 5.3
+        "dead": 170,
+        "dead_pct": 5
       },
       {
         "tld": "ai",
         "total": 3375,
-        "dead": 155,
-        "dead_pct": 4.6
+        "dead": 148,
+        "dead_pct": 4.4
       },
       {
         "tld": "info",
         "total": 2720,
-        "dead": 220,
-        "dead_pct": 8.1
+        "dead": 215,
+        "dead_pct": 7.9
       },
       {
         "tld": "pl",
         "total": 2667,
-        "dead": 119,
-        "dead_pct": 4.5
+        "dead": 110,
+        "dead_pct": 4.1
       },
       {
         "tld": "ch",
         "total": 2551,
-        "dead": 142,
-        "dead_pct": 5.6
+        "dead": 138,
+        "dead_pct": 5.4
       },
       {
         "tld": "es",
         "total": 2548,
-        "dead": 175,
-        "dead_pct": 6.9
+        "dead": 164,
+        "dead_pct": 6.4
       },
       {
         "tld": "cn",
         "total": 2206,
-        "dead": 276,
-        "dead_pct": 12.5
+        "dead": 260,
+        "dead_pct": 11.8
       },
       {
         "tld": "kr",
         "total": 2052,
-        "dead": 130,
-        "dead_pct": 6.3
+        "dead": 126,
+        "dead_pct": 6.1
       },
       {
         "tld": "cz",
         "total": 1879,
-        "dead": 55,
-        "dead_pct": 2.9
+        "dead": 53,
+        "dead_pct": 2.8
       }
     ],
     "park_vendors": [
       {
         "value": "parklogic",
-        "count": 637
-      },
-      {
-        "value": "hugedomains",
-        "count": 262
+        "count": 633
       },
       {
         "value": "sedo",
-        "count": 252
+        "count": 261
+      },
+      {
+        "value": "hugedomains",
+        "count": 259
       },
       {
         "value": "for_sale",
-        "count": 170
+        "count": 185
       },
       {
         "value": "afternic",
-        "count": 20
+        "count": 19
       },
       {
         "value": "parked",
-        "count": 9
+        "count": 11
       },
       {
         "value": "namedrive",
@@ -523,11 +523,11 @@
       },
       {
         "value": "expired",
-        "count": 3
+        "count": 4
       },
       {
         "value": "parkingcrew",
-        "count": 2
+        "count": 1
       },
       {
         "value": "skenzo",
@@ -538,20 +538,20 @@
       {
         "mode": "polite",
         "total": 500000,
-        "alive": 427034,
-        "redirect": 1499,
-        "blocked": 42937,
-        "dead": 28530,
-        "dead_pct": 5.7
+        "alive": 429196,
+        "redirect": 1356,
+        "blocked": 42011,
+        "dead": 27437,
+        "dead_pct": 5.5
       },
       {
         "mode": "reachability",
         "total": 500000,
-        "alive": 431241,
-        "redirect": 925,
-        "blocked": 39548,
-        "dead": 28286,
-        "dead_pct": 5.7
+        "alive": 435035,
+        "redirect": 927,
+        "blocked": 36753,
+        "dead": 27285,
+        "dead_pct": 5.5
       }
     ]
   }
