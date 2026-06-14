@@ -1,0 +1,558 @@
+{
+  "dataset": "deadweb",
+  "index": "deadweb",
+  "run_id": "top500k-20260614",
+  "run_date": "",
+  "mode": "polite",
+  "summary": {
+    "run_id": "top500k-20260614",
+    "mode": "polite",
+    "total": 500000,
+    "alive": 427034,
+    "redirect": 1499,
+    "blocked": 42937,
+    "dead": 28530,
+    "dead_pct": 5.7,
+    "blocked_pct": 8.6,
+    "parked": 1361,
+    "parked_pct": 0.3,
+    "outcomes": [
+      {
+        "value": "alive",
+        "count": 427034
+      },
+      {
+        "value": "blocked",
+        "count": 42937
+      },
+      {
+        "value": "dead",
+        "count": 28530
+      },
+      {
+        "value": "redirect",
+        "count": 1499
+      }
+    ],
+    "reasons": [
+      {
+        "value": "ok",
+        "count": 403366
+      },
+      {
+        "value": "dns_failed",
+        "count": 23912
+      },
+      {
+        "value": "forbidden",
+        "count": 22625
+      },
+      {
+        "value": "not_found",
+        "count": 17574
+      },
+      {
+        "value": "tls_error",
+        "count": 8079
+      },
+      {
+        "value": "timeout",
+        "count": 7519
+      },
+      {
+        "value": "rate_limited",
+        "count": 5895
+      },
+      {
+        "value": "server_error",
+        "count": 4384
+      },
+      {
+        "value": "connection_error",
+        "count": 1738
+      },
+      {
+        "value": "client_error",
+        "count": 1710
+      },
+      {
+        "value": "redirect",
+        "count": 885
+      },
+      {
+        "value": "connection_refused",
+        "count": 745
+      },
+      {
+        "value": "too_many_redirects",
+        "count": 614
+      },
+      {
+        "value": "auth_required",
+        "count": 432
+      },
+      {
+        "value": "connection_reset",
+        "count": 257
+      },
+      {
+        "value": "anti_bot",
+        "count": 143
+      },
+      {
+        "value": "unknown_status",
+        "count": 96
+      },
+      {
+        "value": "unavailable_legal",
+        "count": 26
+      }
+    ],
+    "tlds": [
+      {
+        "value": "com",
+        "count": 197383
+      },
+      {
+        "value": "org",
+        "count": 53436
+      },
+      {
+        "value": "io",
+        "count": 35206
+      },
+      {
+        "value": "net",
+        "count": 18549
+      },
+      {
+        "value": "de",
+        "count": 11986
+      },
+      {
+        "value": "app",
+        "count": 10261
+      },
+      {
+        "value": "edu",
+        "count": 9899
+      },
+      {
+        "value": "uk",
+        "count": 9038
+      },
+      {
+        "value": "dev",
+        "count": 7896
+      },
+      {
+        "value": "jp",
+        "count": 6792
+      },
+      {
+        "value": "br",
+        "count": 5731
+      },
+      {
+        "value": "fr",
+        "count": 5691
+      },
+      {
+        "value": "me",
+        "count": 4767
+      },
+      {
+        "value": "it",
+        "count": 4642
+      },
+      {
+        "value": "ru",
+        "count": 4609
+      },
+      {
+        "value": "in",
+        "count": 4515
+      },
+      {
+        "value": "gov",
+        "count": 4277
+      },
+      {
+        "value": "ca",
+        "count": 4100
+      },
+      {
+        "value": "co",
+        "count": 3772
+      },
+      {
+        "value": "nl",
+        "count": 3642
+      },
+      {
+        "value": "au",
+        "count": 3534
+      },
+      {
+        "value": "eu",
+        "count": 3411
+      },
+      {
+        "value": "ai",
+        "count": 3375
+      },
+      {
+        "value": "info",
+        "count": 2720
+      },
+      {
+        "value": "pl",
+        "count": 2667
+      },
+      {
+        "value": "ch",
+        "count": 2551
+      },
+      {
+        "value": "es",
+        "count": 2548
+      },
+      {
+        "value": "cn",
+        "count": 2206
+      },
+      {
+        "value": "kr",
+        "count": 2052
+      },
+      {
+        "value": "cz",
+        "count": 1879
+      },
+      {
+        "value": "se",
+        "count": 1861
+      },
+      {
+        "value": "id",
+        "count": 1609
+      },
+      {
+        "value": "il",
+        "count": 1479
+      },
+      {
+        "value": "be",
+        "count": 1461
+      },
+      {
+        "value": "at",
+        "count": 1396
+      },
+      {
+        "value": "us",
+        "count": 1364
+      },
+      {
+        "value": "no",
+        "count": 1304
+      },
+      {
+        "value": "xyz",
+        "count": 1223
+      },
+      {
+        "value": "dk",
+        "count": 1222
+      },
+      {
+        "value": "fi",
+        "count": 1192
+      },
+      {
+        "value": "tw",
+        "count": 1178
+      },
+      {
+        "value": "vn",
+        "count": 1070
+      },
+      {
+        "value": "cc",
+        "count": 995
+      },
+      {
+        "value": "tr",
+        "count": 992
+      },
+      {
+        "value": "hu",
+        "count": 989
+      },
+      {
+        "value": "tv",
+        "count": 949
+      },
+      {
+        "value": "pt",
+        "count": 930
+      },
+      {
+        "value": "ua",
+        "count": 905
+      },
+      {
+        "value": "nz",
+        "count": 898
+      },
+      {
+        "value": "gr",
+        "count": 878
+      }
+    ],
+    "tld_stats": [
+      {
+        "tld": "com",
+        "total": 197383,
+        "dead": 10622,
+        "dead_pct": 5.4
+      },
+      {
+        "tld": "org",
+        "total": 53436,
+        "dead": 2826,
+        "dead_pct": 5.3
+      },
+      {
+        "tld": "io",
+        "total": 35206,
+        "dead": 989,
+        "dead_pct": 2.8
+      },
+      {
+        "tld": "net",
+        "total": 18549,
+        "dead": 1317,
+        "dead_pct": 7.1
+      },
+      {
+        "tld": "de",
+        "total": 11986,
+        "dead": 428,
+        "dead_pct": 3.6
+      },
+      {
+        "tld": "app",
+        "total": 10261,
+        "dead": 264,
+        "dead_pct": 2.6
+      },
+      {
+        "tld": "edu",
+        "total": 9899,
+        "dead": 966,
+        "dead_pct": 9.8
+      },
+      {
+        "tld": "uk",
+        "total": 9038,
+        "dead": 502,
+        "dead_pct": 5.6
+      },
+      {
+        "tld": "dev",
+        "total": 7896,
+        "dead": 473,
+        "dead_pct": 6
+      },
+      {
+        "tld": "jp",
+        "total": 6792,
+        "dead": 311,
+        "dead_pct": 4.6
+      },
+      {
+        "tld": "br",
+        "total": 5731,
+        "dead": 356,
+        "dead_pct": 6.2
+      },
+      {
+        "tld": "fr",
+        "total": 5691,
+        "dead": 358,
+        "dead_pct": 6.3
+      },
+      {
+        "tld": "me",
+        "total": 4767,
+        "dead": 406,
+        "dead_pct": 8.5
+      },
+      {
+        "tld": "it",
+        "total": 4642,
+        "dead": 223,
+        "dead_pct": 4.8
+      },
+      {
+        "tld": "ru",
+        "total": 4609,
+        "dead": 391,
+        "dead_pct": 8.5
+      },
+      {
+        "tld": "in",
+        "total": 4515,
+        "dead": 451,
+        "dead_pct": 10
+      },
+      {
+        "tld": "gov",
+        "total": 4277,
+        "dead": 501,
+        "dead_pct": 11.7
+      },
+      {
+        "tld": "ca",
+        "total": 4100,
+        "dead": 227,
+        "dead_pct": 5.5
+      },
+      {
+        "tld": "co",
+        "total": 3772,
+        "dead": 249,
+        "dead_pct": 6.6
+      },
+      {
+        "tld": "nl",
+        "total": 3642,
+        "dead": 162,
+        "dead_pct": 4.4
+      },
+      {
+        "tld": "au",
+        "total": 3534,
+        "dead": 216,
+        "dead_pct": 6.1
+      },
+      {
+        "tld": "eu",
+        "total": 3411,
+        "dead": 181,
+        "dead_pct": 5.3
+      },
+      {
+        "tld": "ai",
+        "total": 3375,
+        "dead": 155,
+        "dead_pct": 4.6
+      },
+      {
+        "tld": "info",
+        "total": 2720,
+        "dead": 220,
+        "dead_pct": 8.1
+      },
+      {
+        "tld": "pl",
+        "total": 2667,
+        "dead": 119,
+        "dead_pct": 4.5
+      },
+      {
+        "tld": "ch",
+        "total": 2551,
+        "dead": 142,
+        "dead_pct": 5.6
+      },
+      {
+        "tld": "es",
+        "total": 2548,
+        "dead": 175,
+        "dead_pct": 6.9
+      },
+      {
+        "tld": "cn",
+        "total": 2206,
+        "dead": 276,
+        "dead_pct": 12.5
+      },
+      {
+        "tld": "kr",
+        "total": 2052,
+        "dead": 130,
+        "dead_pct": 6.3
+      },
+      {
+        "tld": "cz",
+        "total": 1879,
+        "dead": 55,
+        "dead_pct": 2.9
+      }
+    ],
+    "park_vendors": [
+      {
+        "value": "parklogic",
+        "count": 637
+      },
+      {
+        "value": "hugedomains",
+        "count": 262
+      },
+      {
+        "value": "sedo",
+        "count": 252
+      },
+      {
+        "value": "for_sale",
+        "count": 170
+      },
+      {
+        "value": "afternic",
+        "count": 20
+      },
+      {
+        "value": "parked",
+        "count": 9
+      },
+      {
+        "value": "namedrive",
+        "count": 5
+      },
+      {
+        "value": "expired",
+        "count": 3
+      },
+      {
+        "value": "parkingcrew",
+        "count": 2
+      },
+      {
+        "value": "skenzo",
+        "count": 1
+      }
+    ],
+    "modes": [
+      {
+        "mode": "polite",
+        "total": 500000,
+        "alive": 427034,
+        "redirect": 1499,
+        "blocked": 42937,
+        "dead": 28530,
+        "dead_pct": 5.7
+      },
+      {
+        "mode": "reachability",
+        "total": 500000,
+        "alive": 431241,
+        "redirect": 925,
+        "blocked": 39548,
+        "dead": 28286,
+        "dead_pct": 5.7
+      }
+    ]
+  }
+}

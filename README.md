@@ -71,7 +71,9 @@ parking-page detection. Homepage-level, from a datacenter vantage — a lower bo
 ## This release
 
 - **run_id**: `top500k-20260614` · top 500,000 domains (DomCop)
-- Headline numbers are added with the data after the run completes.
+- **polite**: 5.7% dead · 8.6% blocked · 85.4% alive (500,000 domains)
+- **reachability**: 5.7% dead · 7.9% blocked · 86.2% alive (500,000 domains)
+- Genuinely-dead (~5.7%) is identical across both arms — no-DNS / no-connect does not depend on the client fingerprint. The browser-fingerprint arm clears more anti-bot walls, so its *blocked* rate is lower (those land as alive).
 
 ## License
 
