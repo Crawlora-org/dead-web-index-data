@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Crawlora Dead-Web Index: a reachability census of the top 10 million domains"
+abstract: >-
+  Per-domain alive / redirect / blocked / dead labels for the DomCop top-10-million
+  popularity list, each domain probed by an honest polite HTTP bot and a browser-like
+  reachability client. About 14% of the top 10 million is genuinely dead; most apparent
+  "death" is anti-bot blocking or a served error, not an unreachable host.
+type: dataset
+authors:
+  - name: "Crawlora"
+    website: "https://crawlora.net"
+version: "1.0.0"
+date-released: "2026-06-18"
+license: CC-BY-4.0
+url: "https://crawlora.net/blog/how-much-of-the-web-is-dead-2026"
+repository-code: "https://github.com/Crawlora-org/dead-web-index-data"
+keywords:
+  - web crawl
+  - link rot
+  - dead websites
+  - domain health
+  - anti-bot
+  - internet infrastructure
+# doi: 10.5281/zenodo.XXXXXXX   # added once the Zenodo release is minted

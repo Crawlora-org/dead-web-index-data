@@ -75,6 +75,32 @@ parking-page detection. Homepage-level, from a datacenter vantage — a lower bo
 - **reachability**: 5.7% dead · 7.9% blocked · 86.2% alive (500,000 domains)
 - Genuinely-dead (~5.7%) is identical across both arms — no-DNS / no-connect does not depend on the client fingerprint. The browser-fingerprint arm clears more anti-bot walls, so its *blocked* rate is lower (those land as alive).
 
+## How to cite
+
+This repository ships a [`CITATION.cff`](CITATION.cff), so GitHub shows a **“Cite this
+repository”** button that generates BibTeX/APA for you. Plain text:
+
+> Crawlora (2026). *Crawlora Dead-Web Index: a reachability census of the top 10 million
+> domains* (v1.0.0) [Data set]. https://github.com/Crawlora-org/dead-web-index-data
+
+A citable **Zenodo DOI** is minted with the v1.0 release and added here on publication.
+
+## Data collection & ethics
+
+- **Public infrastructure only.** Each record is the result of an unauthenticated HTTP
+  `GET /` (plus DNS/TCP checks) to a domain's public homepage — the same request any
+  browser makes. No authentication was bypassed, no login-only or `robots.txt`-disallowed
+  paths were fetched, and no page content is republished. The dataset records only the
+  *reachability state* of a public endpoint.
+- **No personal data.** Records contain domain names and their observed HTTP/DNS status —
+  no WHOIS registrant data, no emails, no personal identifiers. Domain names in a
+  popularity ranking are public records of (overwhelmingly) organisations, not individuals.
+- **Point-in-time.** This is a single snapshot (see `run_id`); a domain dead today may
+  resolve tomorrow and vice-versa. Treat it as a census, not a live status feed.
+- **A lower bound on “alive.”** Probing is homepage-level from a datacenter vantage. Deep
+  pages, residential vantages, and per-geo content reach more than a bare `GET /` does, so
+  the true “alive” share is somewhat higher than reported.
+
 ## License
 
 Data is licensed **CC BY 4.0** — free to use, share and adapt with attribution to
