@@ -2,7 +2,7 @@
 
 A reachability census of the most popular domains on the web. Every domain in the
 [DomCop top-10M](https://www.domcop.com/top-10-million-websites) popularity list (this
-release: the **top 500,000**) is probed and labelled **alive / redirect / blocked / dead**
+release: the **full top 10 million**) is probed and labelled **alive / redirect / blocked / dead**
 — once by an honest *polite* bot and once by a browser-like *reachability* client.
 
 It is the dataset behind the Crawlora **Dead-Web Index** explorer.
@@ -29,17 +29,21 @@ alive to the browser — is the slice of the web that is reachable with better t
 
 ## Files
 
-| file | rows | description |
-| --- | --- | --- |
-| `data/polite.jsonl.gz` | 500,000 | one row per domain, polite arm |
-| `data/reachability.jsonl.gz` | ~500,000 | one row per domain, reachability arm |
-| `data/sample.jsonl` | 1,000 | uncompressed preview (both arms) |
-| `data/summary.json` | — | run-level aggregates (outcome split, by-reason, by-TLD) |
+The two full per-arm files are ~240 MB each, so they ship as **release assets** — grab them
+from the [latest release](https://github.com/Crawlora-org/dead-web-index-data/releases/latest).
+The repo itself carries a small preview and the run-level aggregates.
+
+| file | rows | where | description |
+| --- | --- | --- | --- |
+| `polite.jsonl.gz` | ~9.99M | release asset | one row per domain, polite arm |
+| `reachability.jsonl.gz` | ~10.0M | release asset | one row per domain, reachability (browser) arm |
+| `data/sample.jsonl` | 1,000 | in repo | uncompressed preview (both arms) |
+| `data/summary.json` | — | in repo | run-level aggregates (outcome split, by-reason, by-TLD) |
 
 Each line is one JSON record:
 
 ```json
-{"domain":"example.com","tld":"com","rank":12345,"mode":"polite","outcome":"alive","reason":"ok","first_status":200,"final_status":200,"final_url":"https://example.com/","scheme":"https","hops":0,"parked":false,"run_id":"top500k-20260614","probed_at":"2026-06-14T..."}
+{"domain":"example.com","tld":"com","rank":12345,"mode":"polite","outcome":"alive","reason":"ok","first_status":200,"final_status":200,"final_url":"https://example.com/","scheme":"https","hops":0,"parked":false,"run_id":"top10m-20260615","probed_at":"2026-06-15T..."}
 ```
 
 | field | meaning |
@@ -56,7 +60,7 @@ Each line is one JSON record:
 | `scheme` | `https` or `http` |
 | `hops` | redirects followed |
 | `parked` / `park_vendor` | parked/for-sale domain + vendor |
-| `run_id` | scan run (this release: `top500k-20260614`) |
+| `run_id` | scan run (this release: `top10m-20260615`) |
 | `probed_at` | RFC3339 timestamp |
 
 ## Method (brief)
@@ -70,10 +74,10 @@ parking-page detection. Homepage-level, from a datacenter vantage — a lower bo
 
 ## This release
 
-- **run_id**: `top500k-20260614` · top 500,000 domains (DomCop)
-- **polite**: 5.7% dead · 8.6% blocked · 85.4% alive (500,000 domains)
-- **reachability**: 5.7% dead · 7.9% blocked · 86.2% alive (500,000 domains)
-- Genuinely-dead (~5.7%) is identical across both arms — no-DNS / no-connect does not depend on the client fingerprint. The browser-fingerprint arm clears more anti-bot walls, so its *blocked* rate is lower (those land as alive).
+- **run_id**: `top10m-20260615` · the full top 10,000,000 domains (DomCop), June 2026
+- **polite**: 14.1% dead · 8.9% blocked · 76.6% alive · 0.3% redirect (9,992,781 domains)
+- **reachability**: 14.1% dead · 8.2% blocked · 77.5% alive · 0.2% redirect (9,997,315 domains)
+- Genuinely-dead (**14.1%**) is identical across both arms — no-DNS / no-connect does not depend on the client fingerprint. The browser-fingerprint arm clears more anti-bot walls, so its *blocked* rate is lower (8.9% → 8.2%): a real Chrome TLS/JA3 fingerprint reaches **~72,000** sites the polite bot is shut out of.
 
 ## How to cite
 

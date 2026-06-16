@@ -11,7 +11,7 @@ authors:
   - name: "Crawlora"
     website: "https://crawlora.net"
 version: "1.0.0"
-date-released: "2026-06-18"
+date-released: "2026-06-16"
 license: CC-BY-4.0
 url: "https://crawlora.net/blog/how-much-of-the-web-is-dead-2026"
 repository-code: "https://github.com/Crawlora-org/dead-web-index-data"
