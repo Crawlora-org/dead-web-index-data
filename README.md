@@ -87,8 +87,6 @@ repository”** button that generates BibTeX/APA for you. Plain text:
 > Crawlora (2026). *Crawlora Dead-Web Index: a reachability census of the top 10 million
 > domains* (v1.0.0) [Data set]. https://github.com/Crawlora-org/dead-web-index-data
 
-A citable **Zenodo DOI** is minted with the v1.0 release and added here on publication.
-
 ## Data collection & ethics
 
 - **Public infrastructure only.** Each record is the result of an unauthenticated HTTP
