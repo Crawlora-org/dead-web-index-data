@@ -1,557 +1,577 @@
 {
   "dataset": "deadweb",
   "index": "deadweb",
-  "run_id": "top500k-20260614",
+  "run_id": "top10m-20260615",
   "run_date": "",
   "mode": "polite",
   "summary": {
-    "run_id": "top500k-20260614",
+    "run_id": "top10m-20260615",
     "mode": "polite",
-    "total": 500000,
-    "alive": 429196,
-    "redirect": 1356,
-    "blocked": 42011,
-    "dead": 27437,
-    "dead_pct": 5.5,
-    "blocked_pct": 8.4,
-    "parked": 1379,
-    "parked_pct": 0.3,
+    "total": 9992781,
+    "alive": 7657422,
+    "redirect": 31298,
+    "blocked": 891517,
+    "dead": 1412544,
+    "dead_pct": 14.1,
+    "blocked_pct": 8.9,
+    "parked": 84251,
+    "parked_pct": 1.1,
     "outcomes": [
       {
         "value": "alive",
-        "count": 429196
-      },
-      {
-        "value": "blocked",
-        "count": 42011
+        "count": 7657422
       },
       {
         "value": "dead",
-        "count": 27437
+        "count": 1412544
+      },
+      {
+        "value": "blocked",
+        "count": 891517
       },
       {
         "value": "redirect",
-        "count": 1356
+        "count": 31298
       }
     ],
     "reasons": [
       {
         "value": "ok",
-        "count": 405416
-      },
-      {
-        "value": "forbidden",
-        "count": 22688
+        "count": 7195864
       },
       {
         "value": "dns_failed",
-        "count": 20836
-      },
-      {
-        "value": "not_found",
-        "count": 17711
+        "count": 1027492
       },
       {
         "value": "timeout",
-        "count": 8451
+        "count": 441714
+      },
+      {
+        "value": "forbidden",
+        "count": 441603
+      },
+      {
+        "value": "not_found",
+        "count": 294610
       },
       {
         "value": "tls_error",
-        "count": 8299
-      },
-      {
-        "value": "rate_limited",
-        "count": 5637
+        "count": 192304
       },
       {
         "value": "server_error",
-        "count": 4362
+        "count": 128756
+      },
+      {
+        "value": "rate_limited",
+        "count": 86240
       },
       {
         "value": "connection_error",
-        "count": 1801
+        "count": 75364
       },
       {
         "value": "client_error",
-        "count": 1707
-      },
-      {
-        "value": "connection_refused",
-        "count": 763
+        "count": 38180
       },
       {
         "value": "redirect",
-        "count": 759
+        "count": 18761
+      },
+      {
+        "value": "connection_refused",
+        "count": 17453
       },
       {
         "value": "too_many_redirects",
-        "count": 597
+        "count": 12537
       },
       {
         "value": "auth_required",
-        "count": 434
+        "count": 9527
       },
       {
         "value": "connection_reset",
-        "count": 269
+        "count": 6879
       },
       {
         "value": "anti_bot",
-        "count": 145
-      },
-      {
-        "value": "unknown_status",
-        "count": 99
+        "count": 5154
       },
       {
         "value": "unavailable_legal",
-        "count": 26
+        "count": 330
+      },
+      {
+        "value": "informational",
+        "count": 12
+      },
+      {
+        "value": "unknown",
+        "count": 1
       }
     ],
     "tlds": [
       {
         "value": "com",
-        "count": 197383
+        "count": 4403688
       },
       {
         "value": "org",
-        "count": 53436
+        "count": 878764
       },
       {
         "value": "io",
-        "count": 35206
-      },
-      {
-        "value": "net",
-        "count": 18549
+        "count": 363234
       },
       {
         "value": "de",
-        "count": 11986
+        "count": 348251
       },
       {
-        "value": "app",
-        "count": 10261
-      },
-      {
-        "value": "edu",
-        "count": 9899
-      },
-      {
-        "value": "uk",
-        "count": 9038
-      },
-      {
-        "value": "dev",
-        "count": 7896
-      },
-      {
-        "value": "jp",
-        "count": 6792
-      },
-      {
-        "value": "br",
-        "count": 5731
-      },
-      {
-        "value": "fr",
-        "count": 5691
-      },
-      {
-        "value": "me",
-        "count": 4767
-      },
-      {
-        "value": "it",
-        "count": 4642
+        "value": "net",
+        "count": 347414
       },
       {
         "value": "ru",
-        "count": 4609
+        "count": 301639
       },
       {
-        "value": "in",
-        "count": 4515
+        "value": "jp",
+        "count": 253187
       },
       {
-        "value": "gov",
-        "count": 4277
+        "value": "uk",
+        "count": 244776
+      },
+      {
+        "value": "fr",
+        "count": 135021
+      },
+      {
+        "value": "edu",
+        "count": 128968
+      },
+      {
+        "value": "it",
+        "count": 107638
       },
       {
         "value": "ca",
-        "count": 4100
+        "count": 106814
       },
       {
-        "value": "co",
-        "count": 3772
-      },
-      {
-        "value": "nl",
-        "count": 3642
+        "value": "br",
+        "count": 99202
       },
       {
         "value": "au",
-        "count": 3534
+        "count": 92764
       },
       {
-        "value": "eu",
-        "count": 3411
-      },
-      {
-        "value": "ai",
-        "count": 3375
-      },
-      {
-        "value": "info",
-        "count": 2720
+        "value": "nl",
+        "count": 86383
       },
       {
         "value": "pl",
-        "count": 2667
-      },
-      {
-        "value": "ch",
-        "count": 2551
+        "count": 70063
       },
       {
         "value": "es",
-        "count": 2548
+        "count": 67984
       },
       {
-        "value": "cn",
-        "count": 2206
+        "value": "eu",
+        "count": 67354
       },
       {
-        "value": "kr",
-        "count": 2052
+        "value": "ch",
+        "count": 64850
+      },
+      {
+        "value": "in",
+        "count": 63614
+      },
+      {
+        "value": "info",
+        "count": 61440
+      },
+      {
+        "value": "co",
+        "count": 60670
       },
       {
         "value": "cz",
-        "count": 1879
+        "count": 53177
+      },
+      {
+        "value": "app",
+        "count": 48858
       },
       {
         "value": "se",
-        "count": 1861
+        "count": 46523
       },
       {
-        "value": "id",
-        "count": 1609
-      },
-      {
-        "value": "il",
-        "count": 1479
-      },
-      {
-        "value": "be",
-        "count": 1461
+        "value": "gov",
+        "count": 43435
       },
       {
         "value": "at",
-        "count": 1396
+        "count": 43092
+      },
+      {
+        "value": "cn",
+        "count": 42827
       },
       {
         "value": "us",
-        "count": 1364
+        "count": 41645
       },
       {
-        "value": "no",
-        "count": 1304
-      },
-      {
-        "value": "xyz",
-        "count": 1223
+        "value": "me",
+        "count": 39043
       },
       {
         "value": "dk",
-        "count": 1222
-      },
-      {
-        "value": "fi",
-        "count": 1192
-      },
-      {
-        "value": "tw",
-        "count": 1178
-      },
-      {
-        "value": "vn",
-        "count": 1070
-      },
-      {
-        "value": "cc",
-        "count": 995
-      },
-      {
-        "value": "tr",
-        "count": 992
-      },
-      {
-        "value": "hu",
-        "count": 989
-      },
-      {
-        "value": "tv",
-        "count": 949
-      },
-      {
-        "value": "pt",
-        "count": 930
+        "count": 34943
       },
       {
         "value": "ua",
-        "count": 905
+        "count": 34273
       },
       {
-        "value": "nz",
-        "count": 898
+        "value": "hu",
+        "count": 33730
+      },
+      {
+        "value": "be",
+        "count": 33427
+      },
+      {
+        "value": "id",
+        "count": 30932
+      },
+      {
+        "value": "ai",
+        "count": 30221
+      },
+      {
+        "value": "fi",
+        "count": 28401
+      },
+      {
+        "value": "no",
+        "count": 27293
+      },
+      {
+        "value": "site",
+        "count": 27166
+      },
+      {
+        "value": "tw",
+        "count": 26401
+      },
+      {
+        "value": "dev",
+        "count": 26028
+      },
+      {
+        "value": "kr",
+        "count": 25185
       },
       {
         "value": "gr",
-        "count": 878
+        "count": 22406
+      },
+      {
+        "value": "xyz",
+        "count": 22119
+      },
+      {
+        "value": "ar",
+        "count": 20169
+      },
+      {
+        "value": "ir",
+        "count": 20120
+      },
+      {
+        "value": "nz",
+        "count": 19854
+      },
+      {
+        "value": "il",
+        "count": 19631
+      },
+      {
+        "value": "mx",
+        "count": 19545
+      },
+      {
+        "value": "pt",
+        "count": 18846
       }
     ],
     "tld_stats": [
       {
         "tld": "com",
-        "total": 197383,
-        "dead": 10232,
-        "dead_pct": 5.2
+        "total": 4403688,
+        "dead": 563545,
+        "dead_pct": 12.8
       },
       {
         "tld": "org",
-        "total": 53436,
-        "dead": 2688,
-        "dead_pct": 5
+        "total": 878764,
+        "dead": 114092,
+        "dead_pct": 13
       },
       {
         "tld": "io",
-        "total": 35206,
-        "dead": 958,
-        "dead_pct": 2.7
-      },
-      {
-        "tld": "net",
-        "total": 18549,
-        "dead": 1268,
-        "dead_pct": 6.8
+        "total": 363234,
+        "dead": 10113,
+        "dead_pct": 2.8
       },
       {
         "tld": "de",
-        "total": 11986,
-        "dead": 390,
-        "dead_pct": 3.3
+        "total": 348251,
+        "dead": 26446,
+        "dead_pct": 7.6
       },
       {
-        "tld": "app",
-        "total": 10261,
-        "dead": 256,
-        "dead_pct": 2.5
-      },
-      {
-        "tld": "edu",
-        "total": 9899,
-        "dead": 913,
-        "dead_pct": 9.2
-      },
-      {
-        "tld": "uk",
-        "total": 9038,
-        "dead": 486,
-        "dead_pct": 5.4
-      },
-      {
-        "tld": "dev",
-        "total": 7896,
-        "dead": 462,
-        "dead_pct": 5.9
-      },
-      {
-        "tld": "jp",
-        "total": 6792,
-        "dead": 307,
-        "dead_pct": 4.5
-      },
-      {
-        "tld": "br",
-        "total": 5731,
-        "dead": 342,
-        "dead_pct": 6
-      },
-      {
-        "tld": "fr",
-        "total": 5691,
-        "dead": 340,
-        "dead_pct": 6
-      },
-      {
-        "tld": "me",
-        "total": 4767,
-        "dead": 393,
-        "dead_pct": 8.2
-      },
-      {
-        "tld": "it",
-        "total": 4642,
-        "dead": 215,
-        "dead_pct": 4.6
+        "tld": "net",
+        "total": 347414,
+        "dead": 69151,
+        "dead_pct": 19.9
       },
       {
         "tld": "ru",
-        "total": 4609,
-        "dead": 367,
-        "dead_pct": 8
+        "total": 301639,
+        "dead": 44780,
+        "dead_pct": 14.8
       },
       {
-        "tld": "in",
-        "total": 4515,
-        "dead": 449,
-        "dead_pct": 9.9
+        "tld": "jp",
+        "total": 253187,
+        "dead": 39563,
+        "dead_pct": 15.6
       },
       {
-        "tld": "gov",
-        "total": 4277,
-        "dead": 502,
-        "dead_pct": 11.7
+        "tld": "uk",
+        "total": 244776,
+        "dead": 37525,
+        "dead_pct": 15.3
+      },
+      {
+        "tld": "fr",
+        "total": 135021,
+        "dead": 19567,
+        "dead_pct": 14.5
+      },
+      {
+        "tld": "edu",
+        "total": 128968,
+        "dead": 28357,
+        "dead_pct": 22
+      },
+      {
+        "tld": "it",
+        "total": 107638,
+        "dead": 14564,
+        "dead_pct": 13.5
       },
       {
         "tld": "ca",
-        "total": 4100,
-        "dead": 219,
-        "dead_pct": 5.3
+        "total": 106814,
+        "dead": 15023,
+        "dead_pct": 14.1
       },
       {
-        "tld": "co",
-        "total": 3772,
-        "dead": 235,
-        "dead_pct": 6.2
-      },
-      {
-        "tld": "nl",
-        "total": 3642,
-        "dead": 149,
-        "dead_pct": 4.1
+        "tld": "br",
+        "total": 99202,
+        "dead": 20693,
+        "dead_pct": 20.9
       },
       {
         "tld": "au",
-        "total": 3534,
-        "dead": 206,
-        "dead_pct": 5.8
+        "total": 92764,
+        "dead": 13883,
+        "dead_pct": 15
       },
       {
-        "tld": "eu",
-        "total": 3411,
-        "dead": 170,
-        "dead_pct": 5
-      },
-      {
-        "tld": "ai",
-        "total": 3375,
-        "dead": 148,
-        "dead_pct": 4.4
-      },
-      {
-        "tld": "info",
-        "total": 2720,
-        "dead": 215,
-        "dead_pct": 7.9
+        "tld": "nl",
+        "total": 86383,
+        "dead": 8400,
+        "dead_pct": 9.7
       },
       {
         "tld": "pl",
-        "total": 2667,
-        "dead": 110,
-        "dead_pct": 4.1
-      },
-      {
-        "tld": "ch",
-        "total": 2551,
-        "dead": 138,
-        "dead_pct": 5.4
+        "total": 70063,
+        "dead": 9212,
+        "dead_pct": 13.1
       },
       {
         "tld": "es",
-        "total": 2548,
-        "dead": 164,
-        "dead_pct": 6.4
+        "total": 67984,
+        "dead": 11305,
+        "dead_pct": 16.6
       },
       {
-        "tld": "cn",
-        "total": 2206,
-        "dead": 260,
-        "dead_pct": 11.8
+        "tld": "eu",
+        "total": 67354,
+        "dead": 10582,
+        "dead_pct": 15.7
       },
       {
-        "tld": "kr",
-        "total": 2052,
-        "dead": 126,
-        "dead_pct": 6.1
+        "tld": "ch",
+        "total": 64850,
+        "dead": 6350,
+        "dead_pct": 9.8
+      },
+      {
+        "tld": "in",
+        "total": 63614,
+        "dead": 16442,
+        "dead_pct": 25.8
+      },
+      {
+        "tld": "info",
+        "total": 61440,
+        "dead": 17362,
+        "dead_pct": 28.3
+      },
+      {
+        "tld": "co",
+        "total": 60670,
+        "dead": 9264,
+        "dead_pct": 15.3
       },
       {
         "tld": "cz",
-        "total": 1879,
-        "dead": 53,
-        "dead_pct": 2.8
+        "total": 53177,
+        "dead": 3853,
+        "dead_pct": 7.2
+      },
+      {
+        "tld": "app",
+        "total": 48858,
+        "dead": 2054,
+        "dead_pct": 4.2
+      },
+      {
+        "tld": "se",
+        "total": 46523,
+        "dead": 5398,
+        "dead_pct": 11.6
+      },
+      {
+        "tld": "gov",
+        "total": 43435,
+        "dead": 11251,
+        "dead_pct": 25.9
+      },
+      {
+        "tld": "at",
+        "total": 43092,
+        "dead": 3696,
+        "dead_pct": 8.6
+      },
+      {
+        "tld": "cn",
+        "total": 42827,
+        "dead": 14144,
+        "dead_pct": 33
+      },
+      {
+        "tld": "us",
+        "total": 41645,
+        "dead": 9146,
+        "dead_pct": 22
+      },
+      {
+        "tld": "me",
+        "total": 39043,
+        "dead": 5501,
+        "dead_pct": 14.1
       }
     ],
     "park_vendors": [
       {
+        "value": "hugedomains",
+        "count": 29788
+      },
+      {
         "value": "parklogic",
-        "count": 633
+        "count": 26386
       },
       {
         "value": "sedo",
-        "count": 261
-      },
-      {
-        "value": "hugedomains",
-        "count": 259
+        "count": 17149
       },
       {
         "value": "for_sale",
-        "count": 185
+        "count": 8275
       },
       {
         "value": "afternic",
-        "count": 19
+        "count": 1488
       },
       {
         "value": "parked",
-        "count": 11
-      },
-      {
-        "value": "namedrive",
-        "count": 5
-      },
-      {
-        "value": "expired",
-        "count": 4
+        "count": 801
       },
       {
         "value": "parkingcrew",
-        "count": 1
+        "count": 174
+      },
+      {
+        "value": "expired",
+        "count": 111
+      },
+      {
+        "value": "namedrive",
+        "count": 38
       },
       {
         "value": "skenzo",
-        "count": 1
+        "count": 29
+      },
+      {
+        "value": "bodis",
+        "count": 4
+      },
+      {
+        "value": "domainmarket",
+        "count": 4
+      },
+      {
+        "value": "above",
+        "count": 2
+      },
+      {
+        "value": "domainsponsor",
+        "count": 2
       }
     ],
     "modes": [
       {
-        "mode": "polite",
-        "total": 500000,
-        "alive": 429196,
-        "redirect": 1356,
-        "blocked": 42011,
-        "dead": 27437,
-        "dead_pct": 5.5
+        "mode": "reachability",
+        "total": 9997315,
+        "alive": 7743245,
+        "redirect": 21582,
+        "blocked": 819599,
+        "dead": 1412889,
+        "dead_pct": 14.1
       },
       {
-        "mode": "reachability",
-        "total": 500000,
-        "alive": 435035,
-        "redirect": 927,
-        "blocked": 36753,
-        "dead": 27285,
-        "dead_pct": 5.5
+        "mode": "polite",
+        "total": 9992781,
+        "alive": 7657422,
+        "redirect": 31298,
+        "blocked": 891517,
+        "dead": 1412544,
+        "dead_pct": 14.1
       }
     ]
   }
