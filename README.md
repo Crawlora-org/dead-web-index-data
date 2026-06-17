@@ -29,16 +29,33 @@ alive to the browser — is the slice of the web that is reachable with better t
 
 ## Files
 
-The two full per-arm files are ~240 MB each, so they ship as **release assets** — grab them
-from the [latest release](https://github.com/Crawlora-org/dead-web-index-data/releases/latest).
-The repo itself carries a small preview and the run-level aggregates.
+The full per-arm data ships as **release assets** on the
+[latest release](https://github.com/Crawlora-org/dead-web-index-data/releases/latest), split into
+**10 chunks per arm** partitioned by DomCop rank (~1,000,000 domains each) and compressed with
+**zstd**. Every chunk is a self-contained `.jsonl.zst` (~20 MB) — independently decodable, so you
+can grab just the popularity band you need, resume a download, or fetch in parallel. The repo
+carries a small preview, the run-level aggregates, and a checksummed manifest.
 
 | file | rows | where | description |
 | --- | --- | --- | --- |
-| `polite.jsonl.gz` | ~9.99M | release asset | one row per domain, polite arm |
-| `reachability.jsonl.gz` | ~10.0M | release asset | one row per domain, reachability (browser) arm |
+| `polite.part-01.jsonl.zst` … `part-10` | 9,992,781 total | release assets | polite arm, 10 rank-partitioned chunks (`part-01` = ranks 1–1,000,000 … `part-10` = 9,000,001–10,000,000) |
+| `reachability.part-01.jsonl.zst` … `part-10` | 9,997,315 total | release assets | reachability (browser) arm, same 10-chunk rank partition |
+| `data/manifest.json` | — | in repo | per-chunk rows, rank range, byte size, and **sha256** |
 | `data/sample.jsonl` | 1,000 | in repo | uncompressed preview (both arms) |
 | `data/summary.json` | — | in repo | run-level aggregates (outcome split, by-reason, by-TLD) |
+
+### Getting the data
+
+```bash
+base=https://github.com/Crawlora-org/dead-web-index-data/releases/download/v1.0.0
+# grab one arm's 10 chunks, then decode + concatenate into a single JSONL stream:
+for i in $(seq -w 1 10); do curl -fL -O "$base/polite.part-$i.jsonl.zst"; done
+zstd -dc polite.part-*.jsonl.zst > polite.jsonl        # needs `zstd` (apt/brew install zstd)
+```
+
+zstd-compressed JSONL is read directly by DuckDB (`read_json_auto('polite.part-*.jsonl.zst')`)
+and Polars; pandas needs the `zstandard` package (or just decode with `zstd -d` first). Verify
+each download against the `sha256` in [`data/manifest.json`](data/manifest.json).
 
 Each line is one JSON record:
 

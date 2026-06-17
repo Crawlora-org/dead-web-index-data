@@ -1,0 +1,187 @@
+{
+  "run_id": "top10m-20260615",
+  "codec": "zstd-19",
+  "span": 1000000,
+  "chunks": [
+    {
+      "file": "polite.part-01.jsonl.zst",
+      "arm": "polite",
+      "rows": 999560,
+      "rank_min": 1,
+      "rank_max": 1000000,
+      "bytes": 20715088,
+      "sha256": "50e4848a66de0b5ac01e29320f7c8be53fe716b590a011655b80bd776da7896c"
+    },
+    {
+      "file": "polite.part-02.jsonl.zst",
+      "arm": "polite",
+      "rows": 998869,
+      "rank_min": 1000001,
+      "rank_max": 2000000,
+      "bytes": 21283341,
+      "sha256": "9e5d07f69ef978f8f1f550a5f84f3dfe51629f7196a30e566777030b1435832f"
+    },
+    {
+      "file": "polite.part-03.jsonl.zst",
+      "arm": "polite",
+      "rows": 999432,
+      "rank_min": 2000001,
+      "rank_max": 3000000,
+      "bytes": 20903467,
+      "sha256": "28c2687c95cecc8208f0172970a54255c7b2fd32ff5658e57c202070cdb2cec2"
+    },
+    {
+      "file": "polite.part-04.jsonl.zst",
+      "arm": "polite",
+      "rows": 999329,
+      "rank_min": 3000001,
+      "rank_max": 4000000,
+      "bytes": 21260869,
+      "sha256": "bedfc13a98a9e99a3f0a952177818a3aa364b7281b97de3c049390173502187c"
+    },
+    {
+      "file": "polite.part-05.jsonl.zst",
+      "arm": "polite",
+      "rows": 999473,
+      "rank_min": 4000001,
+      "rank_max": 5000000,
+      "bytes": 20923782,
+      "sha256": "454295841a1209d92b09ff1f14374fabb757fcd3be65edb288a8a9b4e530994b"
+    },
+    {
+      "file": "polite.part-06.jsonl.zst",
+      "arm": "polite",
+      "rows": 999283,
+      "rank_min": 5000001,
+      "rank_max": 6000000,
+      "bytes": 21295568,
+      "sha256": "6335402eb5f9eef73d8ed77967418408aaf9cb8c09748d2f44558f6abd5e1d6d"
+    },
+    {
+      "file": "polite.part-07.jsonl.zst",
+      "arm": "polite",
+      "rows": 999325,
+      "rank_min": 6000001,
+      "rank_max": 7000000,
+      "bytes": 21421143,
+      "sha256": "487e8328fc77e7c6a617acbd932cd5f82240e54ff2f386cd8cae8bbb1880daf2"
+    },
+    {
+      "file": "polite.part-08.jsonl.zst",
+      "arm": "polite",
+      "rows": 999261,
+      "rank_min": 7000001,
+      "rank_max": 8000000,
+      "bytes": 21151044,
+      "sha256": "3f540aeb68a89b1e607325c6775eeefbad242a25132b03fc7ce9e32bd67ee1d5"
+    },
+    {
+      "file": "polite.part-09.jsonl.zst",
+      "arm": "polite",
+      "rows": 999283,
+      "rank_min": 8000001,
+      "rank_max": 9000000,
+      "bytes": 21848671,
+      "sha256": "f2f920db2c1a10282723bdda50b5cd6479113cf25bf2f5480fc778d52c3005bf"
+    },
+    {
+      "file": "polite.part-10.jsonl.zst",
+      "arm": "polite",
+      "rows": 998966,
+      "rank_min": 9000001,
+      "rank_max": 10000000,
+      "bytes": 21486305,
+      "sha256": "a2cb32f926e2438d15b5c6697184d8ba7fc7bcd4088fbd66fdaabd54d950782e"
+    },
+    {
+      "file": "reachability.part-01.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999904,
+      "rank_min": 1,
+      "rank_max": 1000000,
+      "bytes": 20875835,
+      "sha256": "e0d617e4c47eb22882f842689b3cf96a529fad96df0c55364ec251d3066830fd"
+    },
+    {
+      "file": "reachability.part-02.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999341,
+      "rank_min": 1000001,
+      "rank_max": 2000000,
+      "bytes": 21422562,
+      "sha256": "73faf09161fc94fa4a092a57e09746b24c5c04c203db509399cb1da70ee7974d"
+    },
+    {
+      "file": "reachability.part-03.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999881,
+      "rank_min": 2000001,
+      "rank_max": 3000000,
+      "bytes": 21027306,
+      "sha256": "238f6c39e6bebb2fa55639c007554bbee6d075851bf8d40c0c4eaa370fe0036b"
+    },
+    {
+      "file": "reachability.part-04.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999817,
+      "rank_min": 3000001,
+      "rank_max": 4000000,
+      "bytes": 21452250,
+      "sha256": "94c4e4ca268c17677a71510a15cfc40f7eed7c63f32c49cfe09856083f08816e"
+    },
+    {
+      "file": "reachability.part-05.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999901,
+      "rank_min": 4000001,
+      "rank_max": 5000000,
+      "bytes": 21014806,
+      "sha256": "19ac78f15fb22b31610136c300e519829473df45f2c584d09d1ec8cdda8ff1e8"
+    },
+    {
+      "file": "reachability.part-06.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999746,
+      "rank_min": 5000001,
+      "rank_max": 6000000,
+      "bytes": 21459045,
+      "sha256": "da8a9c5aa49265a5af96f6a3bf5fde72d08daef412376f07bfc44a141b1431bc"
+    },
+    {
+      "file": "reachability.part-07.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999780,
+      "rank_min": 6000001,
+      "rank_max": 7000000,
+      "bytes": 21589411,
+      "sha256": "d39cfe6a88f933c6e1279196973de2b4f5c282e87b72ff68071c426d7c1867ea"
+    },
+    {
+      "file": "reachability.part-08.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999694,
+      "rank_min": 7000001,
+      "rank_max": 8000000,
+      "bytes": 21308529,
+      "sha256": "031e1edadc6f6731ee086c000d468bd9384ae0dbcf6c06b0d09f3cfb83bf8f3c"
+    },
+    {
+      "file": "reachability.part-09.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999742,
+      "rank_min": 8000001,
+      "rank_max": 9000000,
+      "bytes": 22028460,
+      "sha256": "b0a5cd060a928bc96e0cfc704dacee114b137d1a9c4c7a79d596a02ffda62378"
+    },
+    {
+      "file": "reachability.part-10.jsonl.zst",
+      "arm": "reachability",
+      "rows": 999509,
+      "rank_min": 9000001,
+      "rank_max": 10000000,
+      "bytes": 21644231,
+      "sha256": "010a0d9df6e2e1df0ffdafed342a8571816838e74e2d18a5d1138e854af69eb0"
+    }
+  ]
+}
