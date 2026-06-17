@@ -86,8 +86,11 @@ HTTPS-first with HTTP fallback; cross-resolver DNS retry (8 public resolvers); r
 followed (max 10); a retry on transient/timeout failures with an escalating deadline; a
 raw TCP-connect check to separate "up but unresponsive" (blocked) from "gone" (dead);
 parking-page detection. Homepage-level, from a datacenter vantage — a lower bound on
-"alive" (deep pages and residential vantages reach more). Built with the scanner at
-[Crawlora-org/ten-million-domains](https://github.com/Crawlora-org/ten-million-domains).
+"alive" (deep pages and residential vantages reach more). The classification logic — DNS /
+TCP / HTTP probing and the alive / redirect / blocked / dead rules — is open-sourced as a CLI
+you can run on your own domains:
+**[crawlora-deadweb](https://github.com/Crawlora-org/crawlora-deadweb)**
+(`go install github.com/Crawlora-org/crawlora-deadweb@latest`).
 
 ## This release
 
